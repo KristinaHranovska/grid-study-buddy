@@ -1,0 +1,244 @@
+button {
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+body {
+    margin: auto;
+    padding: 72px;
+}
+
+.header {
+    margin-bottom: 32px;
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: 88px 1fr 88px;
+    align-items: center;
+
+}
+
+.header-circle {
+    height: 88px;
+    border-radius: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header-title {
+    font-family: "Nova Cut", sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 1;
+    text-align: center;
+    color: #000;
+
+    margin-bottom: 8px;
+}
+
+.header-text {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.29;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.main-section {
+    margin-bottom: 44px;
+}
+
+.main-title {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 1.05;
+    text-align: center;
+    color: #000;
+
+    padding: 32px 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+
+    margin-bottom: 32px;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1.2fr;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-public-title {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.12;
+    color: #000;
+
+    margin-bottom: 4px;
+}
+
+.public-author {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    color: rgba(0, 0, 0, 0.5);
+
+    margin-bottom: 24px;
+}
+
+.public-text {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.33;
+    color: #000;
+}
+
+.second-public-pictures {
+    width: 726px;
+    height: 484px;
+    background-color: rgba(0, 0, 0, 0.25);
+
+    margin-bottom: 12px;
+}
+
+.second-public-name {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    color: #000;
+}
+
+.third-public-title {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.17;
+    color: #000;
+}
+
+.everyday-events {
+    border-top: 1px solid rgba(0, 0, 0, 0.25);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+    padding: 32px 0;
+    margin-bottom: 32px;
+}
+
+.everyday-events-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.everyday-events-block-one {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.everyday-events-block-article {
+    border-right: 1px solid rgba(0, 0, 0, 0.25);
+    margin-right: 12px;
+}
+
+.first-text {
+    padding-right: 12px;
+}
+
+.everyday-events-first-title {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.22;
+    color: #000;
+
+    margin-bottom: 8px;
+}
+
+.everyday-events-author {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.33;
+    color: rgba(0, 0, 0, 0.5);
+
+    margin-bottom: 24px;
+}
+
+.everyday-events-title {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 1.17;
+    color: #000;
+
+    margin-bottom: 8px;
+}
+
+.everyday-events-text {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 129%;
+    color: #000;
+}
+
+.everyday-events-block-two {
+    display: grid;
+    grid-template-areas:
+        "t t t t"
+        "a . . ."
+        "p1 p2 p3 p4"
+    ;
+    column-gap: 24px;
+}
+
+.title {
+    grid-area: t;
+}
+
+.author {
+    grid-area: a;
+}
+
+.text1 {
+    grid-area: p1;
+}
+
+.text2 {
+    grid-area: p2;
+}
+
+.text3 {
+    grid-area: p3;
+}
+
+.text4 {
+    grid-area: p4;
+}
